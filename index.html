@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>GPT-3 Talk</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="settings-form">
+            <form id="settings-form">
+                <p><strong>API Token:</strong></p>
+                <p>
+                    <input type="password" name="token" id="token" placeholder="Your OpenAI API Token"/>
+                </p>
+            </form>
+        <hr/>
+        </div>
+        <div id="conversation">
+            <div id="conversation-body">
+            </div>
+            
+        <div id="conversation-footer">
+            <form id="prompt-form">
+                <p><input type="text" id="text-input" placeholder="Enter prompt"/></p>
+                <p><button id="send-button">Send</button></p>
+            </form>
+        </div>
+    </div>
+    </body>
+    <script src="./main.js"></script>
+</html>
